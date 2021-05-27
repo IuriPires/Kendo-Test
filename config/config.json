@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "kendo-grid-solution-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/kendoGridSolution/KendoGridSolutionWebPart.js",
+          "manifest": "./src/webparts/kendoGridSolution/KendoGridSolutionWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KendoGridSolutionWebPartStrings": "lib/webparts/kendoGridSolution/loc/{locale}.js"
+  }
+}
